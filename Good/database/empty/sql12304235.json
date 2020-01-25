@@ -1,0 +1,27 @@
+[
+{"type":"header","version":"4.7.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"sql12304235"},
+{"type":"table","name":"events","database":"sql12304235","data":
+[
+{"ID":"1","Date":"05.09.2019","EventName":"Angular Webinar","Time":"12:50","City":"Tel Aviv","SeatPlaces":"100","FreePlaces":"100"},
+{"ID":"2","Date":"07.09.2019","EventName":"React Webinar","Time":"13:50","City":"Hulon","SeatPlaces":"100","FreePlaces":"100"},
+{"ID":"5","Date":"06.09.2019","EventName":"Vue Webinar","Time":"18:50","City":"Kfar Saba","SeatPlaces":"100","FreePlaces":"100"},
+{"ID":"6","Date":"09.09.2019","EventName":"PHP Webinar","Time":"14:50","City":"Raanana","SeatPlaces":"100","FreePlaces":"100"},
+{"ID":"7","Date":"08.09.2019","EventName":"JavaScript Webinar","Time":"13:50","City":"Rishon","SeatPlaces":"100","FreePlaces":"100"}
+]
+}
+,{"type":"table","name":"visitors","database":"sql12304235","data":
+[
+{"ID":"1","EventName":"Angular Webinar","VisitorName":"Slava Sanin","Places":"0","EventID":"0"},
+{"ID":"2","EventName":"Angular Webinar","VisitorName":"Alex","Places":"0","EventID":"0"},
+{"ID":"3","EventName":"Angular Webinar","VisitorName":"Boris","Places":"0","EventID":"0"},
+{"ID":"4","EventName":"Angular Webinar","VisitorName":"Shay","Places":"0","EventID":"0"},
+{"ID":"5","EventName":"Angular Webinar","VisitorName":"Izik","Places":"0","EventID":"0"},
+{"ID":"6","EventName":"Angular Webinar","VisitorName":"Moshe","Places":"0","EventID":"0"},
+{"ID":"7","EventName":"Angular Webinar","VisitorName":"Michael","Places":"0","EventID":"0"},
+{"ID":"8","EventName":"Angular Webinar","VisitorName":"Lavi","Places":"0","EventID":"0"},
+{"ID":"9","EventName":"Angular Webinar","VisitorName":"Dan","Places":"0","EventID":"0"},
+{"ID":"10","EventName":"Angular Webinar","VisitorName":"Anatoly","Places":"0","EventID":"0"}
+]
+}
+]

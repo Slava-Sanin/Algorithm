@@ -1,0 +1,15 @@
+<div class="dx-viewport demo-container" ng-app="DemoApp" ng-controller="DemoController">
+  
+  <div id="gridContainer" dx-data-grid="gridOptions" dx-item-alias="event">
+    
+    <div data-options="dxTemplate: {name: 'detail'}">
+     
+      <div class="master-detail-caption">{{event.data.EventName + " visitors"}}</div>
+      
+      <div dx-data-grid="getDetailGridSettings(event.key)"></div>
+      
+    </div>
+    
+  </div>
+  
+</div>
